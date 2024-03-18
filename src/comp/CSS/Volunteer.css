@@ -1,0 +1,26 @@
+.volunteer {
+    background-image: url('../img/volunteer.jpg');
+    background-size: cover;
+    background-position: center; 
+
+    height: 905px;
+    width: 900px;
+
+    margin-left: 807px;
+
+    
+}
+
+.V {
+    float: left;
+    padding-top: 100px;
+
+
+    font-family: var(--font-nexon_medium);
+    color: rgba(95,123,205);
+    font-size: 80px;
+    margin-left: 100px;
+
+    width: 550px;
+    border-bottom: solid 2px rgba(95,123,205);
+}

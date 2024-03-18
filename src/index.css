@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*폰트 추가*/
+@font-face {
+	font-family: "Orbit";
+	src: url(./assets/Orbit-Regular.ttf);
+}
+
+:root {
+	--font-Orbit: "Orbit";
+}
+
+@font-face {
+	font-family: "Kdam";
+	src: url(./assets/KdamThmorPro-Regular.ttf);
+}
+
+:root {
+	--font-Kdam: "Kdam";
+}
+
+@font-face {
+  font-family: "nexon_bold";
+  src: url(./assets/넥슨\ 카트\ 고딕\ Bold.ttf);
+}
+
+:root {
+  --font-nexon_bold: "nexon_bold";
+}
+
+@font-face {
+  font-family: "nexon_medium";
+  src: url(./assets/넥슨\ 카트\ 고딕\ Medium.ttf);
+}
+
+:root {
+  --font-nexon_medium: "nexon_medium";
+}

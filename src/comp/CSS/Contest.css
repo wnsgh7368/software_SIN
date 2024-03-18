@@ -1,0 +1,26 @@
+.poster {
+
+    background-image: url("../img/poster.jpg");
+    background-size: cover;
+    background-position: center; 
+
+    margin-left: 100px;
+
+    width: 400px;
+    height: 600px;
+
+    float: left;
+}
+
+.ex {
+    margin-top: 150px;
+    margin-left: 700px;
+    font-size: 20px;
+    font-family: var(--font-Orbit);
+}
+
+.ch {
+    margin-top: 350px;
+
+    font-size: 15px;
+}

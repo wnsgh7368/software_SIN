@@ -1,0 +1,75 @@
+.card1 {
+    background-image: url("../img/datascience.jpg");
+    background-size: cover;
+    background-position: center; 
+
+
+    width: 300px;
+    height: 500px;
+    background-color: beige;
+    border-radius: 20px;  
+
+    display: inline-block;
+    
+    margin-top: 90px;
+    margin-left: 200px;
+    transition: transform 1s ease;
+}
+
+.card2 {
+    background-image: url("../img/AI.jpg");
+    background-size: cover; 
+    background-position: center; 
+
+
+    width: 300px;
+    height: 500px;
+    background-color: beige;
+    border-radius: 20px;  
+
+    display: inline-block;
+    margin-left: 180px;
+    transition: transform 1s ease;
+}
+
+.card3 {
+    background-image: url("../img/sportsdata.jpg");
+    background-size: cover; 
+    background-position: center; 
+
+
+    width: 300px;
+    height: 500px;
+    background-color: beige;
+    border-radius: 20px;  
+
+    display: inline-block;
+    margin-left: 200px;
+    transition: transform 1s ease;
+}
+
+.card1:hover {
+    transform: translateY(-40px);
+}
+.card2:hover {
+    transform: translateY(-40px);
+
+}
+.card3:hover {
+    transform: translateY(-40px);
+}
+
+.pr_header {
+
+    font-family: var(--font-nexon_medium);
+    color: rgba(95,123,205);
+    font-size: 80px;
+    height: 100px;
+    width: 850px;
+    padding-left: 475px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    margin-left: 185px;
+    border-bottom: solid 2px black;
+}
+
